@@ -23,16 +23,6 @@ struct LoginView: View {
     
                         Spacer()
                         
-                        HStack(spacing: 2) {
-                            Text("last update: ")
-                                .font(.system(size: 14))
-                            .foregroundColor(.gray.opacity(0.8))
-                            
-                            Text("now")
-                                .font(.system(size: 14))
-                            .foregroundColor(.white)
-                            
-                        }
                     }
                     .foregroundColor(.gray)
                     

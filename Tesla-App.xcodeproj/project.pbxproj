@@ -14,6 +14,9 @@
 		9405E39C28DD185C005DF7E2 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9405E39B28DD185C005DF7E2 /* LoginView.swift */; };
 		9405E39F28DD1CA1005DF7E2 /* LoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9405E39E28DD1CA1005DF7E2 /* LoginButton.swift */; };
 		9405E3A128DD2229005DF7E2 /* 5a5218d02f93c7a8d5137f9a.png in Resources */ = {isa = PBXBuildFile; fileRef = 9405E3A028DD2229005DF7E2 /* 5a5218d02f93c7a8d5137f9a.png */; };
+		9405E3A428DFF946005DF7E2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9405E3A328DFF946005DF7E2 /* HomeView.swift */; };
+		94666FDF28E228CB00DA67CC /* actionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94666FDE28E228CB00DA67CC /* actionButton.swift */; };
+		94666FE128E363AA00DA67CC /* settingsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94666FE028E363AA00DA67CC /* settingsButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +28,9 @@
 		9405E39B28DD185C005DF7E2 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		9405E39E28DD1CA1005DF7E2 /* LoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButton.swift; sourceTree = "<group>"; };
 		9405E3A028DD2229005DF7E2 /* 5a5218d02f93c7a8d5137f9a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5a5218d02f93c7a8d5137f9a.png; sourceTree = "<group>"; };
+		9405E3A328DFF946005DF7E2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		94666FDE28E228CB00DA67CC /* actionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = actionButton.swift; sourceTree = "<group>"; };
+		94666FE028E363AA00DA67CC /* settingsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingsButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +84,7 @@
 		9405E39928DD1843005DF7E2 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				9405E3A228DFF92E005DF7E2 /* HomeScreen */,
 				9405E39A28DD1853005DF7E2 /* Login */,
 			);
 			path = Screens;
@@ -96,6 +103,24 @@
 			isa = PBXGroup;
 			children = (
 				9405E39E28DD1CA1005DF7E2 /* LoginButton.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		9405E3A228DFF92E005DF7E2 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				94666FDD28E228B900DA67CC /* components */,
+				9405E3A328DFF946005DF7E2 /* HomeView.swift */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		94666FDD28E228B900DA67CC /* components */ = {
+			isa = PBXGroup;
+			children = (
+				94666FDE28E228CB00DA67CC /* actionButton.swift */,
+				94666FE028E363AA00DA67CC /* settingsButton.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -173,8 +198,11 @@
 			files = (
 				9405E39C28DD185C005DF7E2 /* LoginView.swift in Sources */,
 				9405E39F28DD1CA1005DF7E2 /* LoginButton.swift in Sources */,
+				94666FE128E363AA00DA67CC /* settingsButton.swift in Sources */,
 				9405E38E28DD1831005DF7E2 /* ContentView.swift in Sources */,
+				9405E3A428DFF946005DF7E2 /* HomeView.swift in Sources */,
 				9405E38C28DD1831005DF7E2 /* Tesla_AppApp.swift in Sources */,
+				94666FDF28E228CB00DA67CC /* actionButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
