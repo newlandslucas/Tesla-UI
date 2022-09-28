@@ -8,8 +8,9 @@
 import SwiftUI
 
 struct HomeView: View {
+    @State var selectedTab = "house"
     var body: some View {
-        VStack(spacing: 30) {
+        ZStack {
             VStack() {
                 HStack {
                     Text("Model X")
@@ -103,7 +104,7 @@ struct HomeView: View {
                     }
                     .padding()
                     
-                    VStack() {
+                    VStack(spacing: 25) {
                         HStack {
                             Text("All Settings")
                                 .font(.subheadline)
@@ -133,9 +134,12 @@ struct HomeView: View {
                     Spacer()
                     
                     }
+                TabBarView(selectedTab: $selectedTab)
+
                 }
-                    
-            }
+        }
+        
+        .background(Color("ColorWhite"))
     }
 }
 
