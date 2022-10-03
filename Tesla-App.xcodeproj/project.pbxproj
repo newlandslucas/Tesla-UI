@@ -13,12 +13,14 @@
 		9405E39328DD1833005DF7E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9405E39228DD1833005DF7E2 /* Preview Assets.xcassets */; };
 		9405E39C28DD185C005DF7E2 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9405E39B28DD185C005DF7E2 /* LoginView.swift */; };
 		9405E39F28DD1CA1005DF7E2 /* LoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9405E39E28DD1CA1005DF7E2 /* LoginButton.swift */; };
-		9405E3A128DD2229005DF7E2 /* 5a5218d02f93c7a8d5137f9a.png in Resources */ = {isa = PBXBuildFile; fileRef = 9405E3A028DD2229005DF7E2 /* 5a5218d02f93c7a8d5137f9a.png */; };
 		9405E3A428DFF946005DF7E2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9405E3A328DFF946005DF7E2 /* HomeView.swift */; };
 		94666FDF28E228CB00DA67CC /* actionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94666FDE28E228CB00DA67CC /* actionButton.swift */; };
 		94666FE128E363AA00DA67CC /* settingsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94666FE028E363AA00DA67CC /* settingsButton.swift */; };
 		94666FE328E3B9B700DA67CC /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94666FE228E3B9B700DA67CC /* TabBarView.swift */; };
 		94666FE528E3BF7E00DA67CC /* TabCurve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94666FE428E3BF7E00DA67CC /* TabCurve.swift */; };
+		94EE753628E3CAD300F24CF5 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EE753528E3CAD300F24CF5 /* ProfileView.swift */; };
+		94EE753828E4829B00F24CF5 /* TabNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EE753728E4829B00F24CF5 /* TabNavigation.swift */; };
+		94EE753A28E483B900F24CF5 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EE753928E483B900F24CF5 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,12 +31,14 @@
 		9405E39228DD1833005DF7E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9405E39B28DD185C005DF7E2 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		9405E39E28DD1CA1005DF7E2 /* LoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButton.swift; sourceTree = "<group>"; };
-		9405E3A028DD2229005DF7E2 /* 5a5218d02f93c7a8d5137f9a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5a5218d02f93c7a8d5137f9a.png; sourceTree = "<group>"; };
 		9405E3A328DFF946005DF7E2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		94666FDE28E228CB00DA67CC /* actionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = actionButton.swift; sourceTree = "<group>"; };
 		94666FE028E363AA00DA67CC /* settingsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingsButton.swift; sourceTree = "<group>"; };
 		94666FE228E3B9B700DA67CC /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		94666FE428E3BF7E00DA67CC /* TabCurve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabCurve.swift; sourceTree = "<group>"; };
+		94EE753528E3CAD300F24CF5 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		94EE753728E4829B00F24CF5 /* TabNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabNavigation.swift; sourceTree = "<group>"; };
+		94EE753928E483B900F24CF5 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,9 +76,9 @@
 				9405E38D28DD1831005DF7E2 /* ContentView.swift */,
 				94666FE228E3B9B700DA67CC /* TabBarView.swift */,
 				9405E38F28DD1833005DF7E2 /* Assets.xcassets */,
-				9405E3A028DD2229005DF7E2 /* 5a5218d02f93c7a8d5137f9a.png */,
 				9405E39128DD1833005DF7E2 /* Preview Content */,
 				94666FE428E3BF7E00DA67CC /* TabCurve.swift */,
+				94EE753728E4829B00F24CF5 /* TabNavigation.swift */,
 			);
 			path = "Tesla-App";
 			sourceTree = "<group>";
@@ -90,6 +94,8 @@
 		9405E39928DD1843005DF7E2 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				94EE753428E3CAC800F24CF5 /* Profile */,
+				94EE753328E3CAC200F24CF5 /* Map */,
 				9405E3A228DFF92E005DF7E2 /* HomeScreen */,
 				9405E39A28DD1853005DF7E2 /* Login */,
 			);
@@ -129,6 +135,22 @@
 				94666FE028E363AA00DA67CC /* settingsButton.swift */,
 			);
 			path = components;
+			sourceTree = "<group>";
+		};
+		94EE753328E3CAC200F24CF5 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				94EE753928E483B900F24CF5 /* MapView.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		94EE753428E3CAC800F24CF5 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				94EE753528E3CAD300F24CF5 /* ProfileView.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,7 +212,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9405E39328DD1833005DF7E2 /* Preview Assets.xcassets in Resources */,
-				9405E3A128DD2229005DF7E2 /* 5a5218d02f93c7a8d5137f9a.png in Resources */,
 				9405E39028DD1833005DF7E2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -203,8 +224,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9405E39C28DD185C005DF7E2 /* LoginView.swift in Sources */,
+				94EE753A28E483B900F24CF5 /* MapView.swift in Sources */,
 				94666FE528E3BF7E00DA67CC /* TabCurve.swift in Sources */,
+				94EE753628E3CAD300F24CF5 /* ProfileView.swift in Sources */,
 				9405E39F28DD1CA1005DF7E2 /* LoginButton.swift in Sources */,
+				94EE753828E4829B00F24CF5 /* TabNavigation.swift in Sources */,
 				94666FE328E3B9B700DA67CC /* TabBarView.swift in Sources */,
 				94666FE128E363AA00DA67CC /* settingsButton.swift in Sources */,
 				9405E38E28DD1831005DF7E2 /* ContentView.swift in Sources */,

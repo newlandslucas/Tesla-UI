@@ -51,7 +51,7 @@ struct HomeView: View {
                     
                     
                     //MARK: Status
-                    VStack(spacing: 75) {
+                    VStack(spacing: 100) {
                         HStack(alignment: .center, spacing: 5) {
                             HStack {
                                 Image(systemName: "battery.75")
@@ -131,10 +131,10 @@ struct HomeView: View {
                     }
                     .padding()
                     
-                    Spacer()
-                    
+    
                     }
-                TabBarView(selectedTab: $selectedTab)
+//                    TabBarView(selectedTab: $selectedTab)
+
 
                 }
         }

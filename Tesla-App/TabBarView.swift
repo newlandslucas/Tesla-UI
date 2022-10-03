@@ -15,9 +15,16 @@ struct TabBarView: View {
     var body: some View {
         HStack(spacing: 0) {
             
-            TabBarButton(image: "house", selectedTab: $selectedTab, tabPoints: $tabPoints)
-            TabBarButton(image: "map", selectedTab: $selectedTab, tabPoints: $tabPoints)
-            TabBarButton(image: "person", selectedTab: $selectedTab, tabPoints: $tabPoints)
+                        TabBarButton(image: "house", selectedTab: $selectedTab, tabPoints: $tabPoints)
+                
+                
+                        TabBarButton(image: "map", selectedTab: $selectedTab, tabPoints: $tabPoints)
+            
+               
+                
+                TabBarButton(image: "person", selectedTab: $selectedTab, tabPoints: $tabPoints)
+            
+            
         }
         .padding()
         .background(
@@ -73,7 +80,7 @@ struct TabBarButton: View {
             
             return AnyView(
                 Button {
-                    withAnimation(.interactiveSpring(response: 0.6, dampingFraction: 0.5, blendDuration: 0.5)) {
+                    withAnimation(.interactiveSpring(response: 0.5, dampingFraction: 0.5, blendDuration: 0.5)) {
                         selectedTab = image
                     }
                 } label: {
