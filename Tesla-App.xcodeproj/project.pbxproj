@@ -21,6 +21,7 @@
 		94EE753628E3CAD300F24CF5 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EE753528E3CAD300F24CF5 /* ProfileView.swift */; };
 		94EE753828E4829B00F24CF5 /* TabNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EE753728E4829B00F24CF5 /* TabNavigation.swift */; };
 		94EE753A28E483B900F24CF5 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EE753928E483B900F24CF5 /* MapView.swift */; };
+		94FF3EFE28EA7C0B0094E84A /* LocationCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FF3EFD28EA7C0B0094E84A /* LocationCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		94EE753528E3CAD300F24CF5 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		94EE753728E4829B00F24CF5 /* TabNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabNavigation.swift; sourceTree = "<group>"; };
 		94EE753928E483B900F24CF5 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		94FF3EFD28EA7C0B0094E84A /* LocationCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 		94EE753328E3CAC200F24CF5 /* Map */ = {
 			isa = PBXGroup;
 			children = (
+				94FF3EFC28EA7BFC0094E84A /* components */,
 				94EE753928E483B900F24CF5 /* MapView.swift */,
 			);
 			path = Map;
@@ -151,6 +154,14 @@
 				94EE753528E3CAD300F24CF5 /* ProfileView.swift */,
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		94FF3EFC28EA7BFC0094E84A /* components */ = {
+			isa = PBXGroup;
+			children = (
+				94FF3EFD28EA7C0B0094E84A /* LocationCard.swift */,
+			);
+			path = components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +245,7 @@
 				9405E38E28DD1831005DF7E2 /* ContentView.swift in Sources */,
 				9405E3A428DFF946005DF7E2 /* HomeView.swift in Sources */,
 				9405E38C28DD1831005DF7E2 /* Tesla_AppApp.swift in Sources */,
+				94FF3EFE28EA7C0B0094E84A /* LocationCard.swift in Sources */,
 				94666FDF28E228CB00DA67CC /* actionButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -365,6 +377,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Tesla-App/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to show recharge points on your map.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -393,6 +406,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Tesla-App/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to show recharge points on your map.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
